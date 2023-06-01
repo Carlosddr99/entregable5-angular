@@ -1,0 +1,10 @@
+<button mat-button (click)="openDialog()">Open dialog</button>
+<br>
+<div>
+    <p *ngIf="dataForm.nombre">Nombre : {{dataForm.nombre}}</p>
+    <p *ngIf="dataForm.email">Email : {{dataForm.email}}</p>
+    <p *ngIf="dataForm.ciudad">Ciudad : {{dataForm.ciudad}}</p>
+    <p *ngIf="dataForm.calle">Calle : {{dataForm.calle}}</p>
+    <p *ngIf="dataForm.numero">Numero : {{dataForm.numero}}</p>
+    <p *ngIf="dataForm.codigo">Código Postal : {{dataForm.codigo}}</p>
+</div>
